@@ -83,12 +83,6 @@ module.exports = {
       companionNetworks: {
         hub: "goerli",
       },
-      verify: {
-        etherscan: {
-          apiKey: "5RGY4CR7JQGRN2BXU8EEID27EKTM6K74P3",
-          apiUrl: "https://blockscout.com/optimism/goerli",
-        },
-      },
     },
   },
   gasReporter: {
