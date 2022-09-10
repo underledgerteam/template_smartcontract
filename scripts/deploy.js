@@ -19,6 +19,11 @@ async function main() {
 
   await greeter.deployed();
 
+  await hre.tenderly.verify({
+    name: "Greeter",
+    address: greeter.address,
+  });
+
   console.log("Greeter deployed to:", greeter.address);
 }
 
